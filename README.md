@@ -25,3 +25,5 @@ I'm thinking the process for adding a piece/arists should be:
 * Double check that you have a high quality / high fidelity piece of theirs, and that it's mostllllyyyy copyright free
 * Update the readme w/ their info
 * Actually create the page
+
+*P.S. This uses my nice middleman base install repo: https://github.com/ehmorris/middleman-base-install*
