@@ -12,6 +12,7 @@ Here's what I'm thinkin' for a nice cross-section of history and avoidance of co
 * Albers
 * Kandinsky
 * Lissitzky
+* Chagal
 * Goya
 * Manet
 * Van Eyck
