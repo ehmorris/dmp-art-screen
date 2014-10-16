@@ -6,7 +6,7 @@ body {
 }
 
 .art-container {
-  background: #ddd;
+  background: #222;
   @include display(flex);
   @include position(absolute, 0px 0px 0px 0px);
 }
