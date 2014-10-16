@@ -7,18 +7,18 @@ A lil' website to rotate the art on the big 1920x1080 screen in the room where I
 
 # Artists
 Here's what I'm thinkin' for a nice cross-section of history and avoidance of copyright stuff (roughly chronologically) (forgive me for being so western inclined, I don't know a lot about Asian/Pacific/Middle-Eastern/African/South-American art):
-* Haring
-* Basquiat
-* Albers
-* Kandinsky
-* Lissitzky
-* Chagal
-* Goya
-* Manet
-* Van Eyck
-* Giotto
-* Hieroglyphs
-* Cave Paintings
+* [ ] [Haring](http://www.wikiart.org/en/keith-haring/keith-and-julia-1986)
+* [ ] [Basquiat](http://www.wikiart.org/en/jean-michel-basquiat/philistines)
+* [ ] [Albers](http://www.wikiart.org/en/josef-albers/homage-to-the-square-1964)
+* [ ] [Kandinsky](http://www.wikiart.org/en/wassily-kandinsky/composition-ix-1936)
+* [ ] [Lissitzky](http://www.wikiart.org/en/el-lissitzky/proun)
+* [ ] [Chagall](http://www.wikiart.org/en/marc-chagall/the-birthday-1915)
+* [ ] [Goya](http://www.wikiart.org/en/francisco-goya/old-eating-soup-1823)
+* [ ] [Manet](http://www.wikiart.org/en/edouard-manet/a-bar-at-the-folies-bergere-1882-1)
+* [ ] [Van Eyck](http://www.wikiart.org/en/jan-van-eyck/the-arnolfini-wedding-the-portrait-of-giovanni-arnolfini-and-his-wife-giovanna-cenami-the-1434)
+* [ ] [Giotto](http://www.wikiart.org/en/giotto/the-trial-by-fire-st-francis-offers-to-walk-through-fire-to-convert-the-sultan-of-egypt-1297)
+* [ ] Hieroglyphs
+* [ ] Cave Paintings
 
 # Adding stuff
 I'm thinking the process for adding a piece/arists should be:
