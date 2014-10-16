@@ -1,5 +1,39 @@
 body {
   font: 400 1em/1.4 $primary-font;
   margin: 0;
+  overflow: hidden;
   text-rendering: optimizeLegibility;
+}
+
+.art-container {
+  background: #ddd;
+  @include display(flex);
+  @include position(absolute, 0px 0px 0px 0px);
+}
+
+.item, .placard-area {
+  @include align-items(center);
+  @include display(flex);
+  height: 100%;
+}
+
+.item {
+  @include flex(3);
+
+  img {
+    display: block;
+    margin: auto;
+    max-height: 90%;
+    max-width: 90%;
+  }
+}
+
+.placard-area {
+  @include flex(1);
+  
+  .card {
+    background: #fff;
+    display: block;
+    margin: auto;
+  }
 }
