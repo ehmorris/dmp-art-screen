@@ -14,6 +14,7 @@ Here's what I'm thinkin' for a nice cross-section of history and avoidance of co
 * [ ] [Lissitzky](http://www.wikiart.org/en/el-lissitzky/proun)
 * [ ] [Chagall](http://www.wikiart.org/en/marc-chagall/the-birthday-1915)
 * [ ] [Goya](http://www.wikiart.org/en/francisco-goya/old-eating-soup-1823)
+* [ ] [Turner](http://www.wikiart.org/en/william-turner/storm-seam-boat-off-a-harbour-s-mouth-making-signals-in-shallow-water-and-going-by-the-lead)
 * [ ] [Manet](http://www.wikiart.org/en/edouard-manet/a-bar-at-the-folies-bergere-1882-1)
 * [ ] [Van Eyck](http://www.wikiart.org/en/jan-van-eyck/the-arnolfini-wedding-the-portrait-of-giovanni-arnolfini-and-his-wife-giovanna-cenami-the-1434)
 * [ ] [Giotto](http://www.wikiart.org/en/giotto/the-trial-by-fire-st-francis-offers-to-walk-through-fire-to-convert-the-sultan-of-egypt-1297)
