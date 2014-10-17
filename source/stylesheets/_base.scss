@@ -16,7 +16,7 @@ body {
       position: relative;
 
       img {
-        @include animation(pan-painting $painting-duration/2 linear);
+        @include animation(pan-painting $painting-duration/3 linear);
       }
     }
 
