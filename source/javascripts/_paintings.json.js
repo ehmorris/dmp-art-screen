@@ -1,69 +1,107 @@
 var paintings_json = [
   {
-    filename: 'albers-homage-square.jpg',
-    title: 'Homage to the Square',
-    artist: 'Josef Albers',
-    year: '1964',
-    details: 'Oil on masonite'
-  }, {
-    filename: 'giotto-the-trial-by-fire.jpg',
-    title: 'The Trial by Fire, St. Francis offers to walk through fire, to convert the Sultan of Egypt',
-    artist: 'Giotto',
-    year: '1297',
-    details: 'Fresco'
-  }, {
-    filename: 'kandinsky-composition-ix.jpg',
-    title: 'Composition IX',
-    artist: 'Wassily Kandinsky',
-    year: '1936',
-    details: 'Oil on canvas'
-  }, {
-    filename: 'turner-storm-steam-boat.jpg',
-    title: 'Snow Storm — Steam-Boat off a Harbour’s Mouth',
-    artist: 'William Turner',
-    year: '1842',
+    filename: 'Frantisek_Kupka_-_Katedrala_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeholder',
     details: ''
-  }, {
-    filename: 'basquiat-philistines.jpg',
-    title: 'Philistines',
-    artist: 'Jean-Michel Basquiat',
-    year: '1982',
-    details: 'Acrylic, crayon on canvas'
-  }, {
-    filename: 'goya-soup.jpg',
-    title: 'Untitled (Old men eating soup)',
-    artist: 'Francisco Goya',
-    year: '1823',
-    details: 'Oil on canvas'
-  }, {
-    filename: 'lissitzky-proun.jpg',
-    title: 'Proun',
-    artist: 'El Lissitzky',
-    year: '1925',
-    details: 'Ink, watercolor'
-  }, {
-    filename: 'vaneyck-rnolfini.jpg',
-    title: 'The Arnolfini Marriage',
-    artist: 'Jan van Eyck',
-    year: '1434',
-    details: 'Oil on panel'
-  }, {
-    filename: 'chagall-birthday.jpg',
-    title: 'The Birthday',
-    artist: 'Marc Chagall',
-    year: '1915',
-    details: 'Oil on canvas'
-  }, {
-    filename: 'haring-keith-and-julia.jpg',
-    title: 'Keith and Julia',
-    artist: 'Keith Haring',
-    year: '1986',
+  },
+  {
+    filename: 'Georges-Pierre_Seurat_-_Honfleur_un_soir_embouchure_de_la_Seine_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
     details: ''
-  }, {
-    filename: 'manet-at-bar.jpg',
-    title: 'A Bar at the Folies-Bergere',
-    artist: 'Edouard Manet',
-    year: '1882',
-    details: 'Oil on canvas'
+  },
+  {
+    filename: 'Goddess_Bhadrakali_Worshipped_by_the_Gods-_from_a_tantric_Devi_series_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Hans_Holbein_der_Jungere_-_Der_Kaufmann_Georg_Gisze_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'In_the_Conservatory_-_edited.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'James_McNeill_Whistler_-_La_Princesse_du_pays_de_la_porcelaine_-_brighter.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'James_McNeill_Whistler_-_Nocturne-_Battersea_Bridge_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Joseph_Mallord_William_Turner_-_The_Sun_of_Venice_Going_to_Sea_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Juan_Gris_-_La_bouteille_danis_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Max_Dupain_-_Adelaide_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Rembrandt_Harmensz_van_Rijn_-_Nachtwacht_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
+  },
+  {
+    filename: 'Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg',
+    title: 'placeholder',
+    artist: 'placeholder',
+    year: 'placeh ',
+    details: ''
   }
 ]
