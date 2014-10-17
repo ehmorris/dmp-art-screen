@@ -22,10 +22,13 @@ Here's what I'm thinkin' for a nice cross-section of history and avoidance of co
 * [ ] Cave Paintings
 
 # Adding stuff
-I'm thinking the process for adding a piece/arists should be:
-* Fork this repo and create a PR w/ the following:
-* Double check that you have a high quality / high fidelity piece of theirs, and that it's mostllllyyyy copyright free
-* Update the readme w/ their info
-* Actually create the page
+I'm thinking the process for adding a piece/arist should be:
+* (Fork this repo)
+* Double check that you have a high quality / high fidelity piece
+* Give the piece a good filename and add it into the [images](https://github.com/ehmorris/genius-art-screen/tree/master/source/images) directory
+* Gather the artist's name, the painting name, the painting completion date, and the methods/materials if possible (a good source for this is wikiart.org)
+* Add that info to the [paintings json file]( https://github.com/ehmorris/genius-art-screen/blob/master/source/javascripts/_paintings.json.js)
+* Update this readme w/ their name and a link to the piece you chose 
+* (Create a PR)
 
 *P.S. This uses my nice middleman base install repo: https://github.com/ehmorris/middleman-base-install*
