@@ -1,69 +1,69 @@
 var artjson = [
   {
     filename: 'albers-homage-square.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Homage to the Square',
+    artist: 'Josef Albers',
+    year: '1964',
+    details: 'Oil on masonite'
   }, {
     filename: 'giotto-the-trial-by-fire.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'The Trial by Fire, St. Francis offers to walk through fire, to convert the Sultan of Egypt',
+    artist: 'Giotto',
+    year: '1297',
+    details: 'Fresco'
   }, {
     filename: 'kandinsky-composition-ix.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Composition IX',
+    artist: 'Wassily Kandinsky',
+    year: '1936',
+    details: 'Oil on canvas'
   }, {
     filename: 'turner-storm-steam-boat.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Storm Seam Boat off a Harbour\'s Mouth Making Signals in Shallow Water, and Going by the Lead',
+    artist: 'William Turner',
+    year: '1842',
+    details: ''
   }, {
     filename: 'basquiat-philistines.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Philistines',
+    artist: 'Jean-Michel Basquiat',
+    year: '1982',
+    details: 'Acrylic, crayon on canvas'
   }, {
     filename: 'goya-soup.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Untitled (Old men eating soup)',
+    artist: 'Francisco Goya',
+    year: '1823',
+    details: 'Oil on canvas'
   }, {
     filename: 'lissitzky-proun.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Proun',
+    artist: 'El Lissitzky',
+    year: '1925',
+    details: 'Ink, watercolor'
   }, {
     filename: 'vaneyck-rnolfini.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'The Arnolfini Marriage',
+    artist: 'Jan van Eyck',
+    year: '1434',
+    details: 'Oil on panel'
   }, {
     filename: 'chagall-birthday.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'The Birthday',
+    artist: 'Marc Chagall',
+    year: '1915',
+    details: 'Oil on canvas'
   }, {
     filename: 'haring-keith-and-julia.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'Keith and Julia',
+    artist: 'Keith Haring',
+    year: '1986',
+    details: ''
   }, {
     filename: 'manet-at-bar.jpg',
-    title: 'placeholder',
-    artist: 'placeholder',
-    year: 'placeholder',
-    details: 'placeholder'
+    title: 'A Bar at the Folies-Bergere',
+    artist: 'Edouard Manet',
+    year: '1882',
+    details: 'Oil on canvas'
   }
 ]
