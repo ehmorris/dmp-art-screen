@@ -1,23 +1,29 @@
 Array::random = ->
   this[Math.floor(Math.random() * this.length)]
 
-replace_image_url = (filename) ->
-  $('.art-container .item img').attr('src', "images/#{filename}")
+mins_in_ms = (mins) ->
+  mins * 60000
 
-replace_image_info = (art) ->
-  $('.placard-area .card .title').text(art.title)
-  $('.placard-area .card .artist').text(art.artist)
-  $('.placard-area .card .year').text(art.year)
-  $('.placard-area .card .details').text(art.details)
+class PaintingCollection
+  constructor: (@paintings) ->
+    this.render_random()
 
-show_random_piece = ->
-  art = window.art.random()
-  replace_image_url(art.filename)
-  replace_image_info(art)
+  render_random: ->
+    painting = @paintings.random()
+    this.replace_dom_image_url(painting)
+    this.replace_dom_image_info(painting)
+
+  replace_dom_image_info: (painting) ->
+    $('.placard-area .card .title').text(painting.title)
+    $('.placard-area .card .artist').text(painting.artist)
+    $('.placard-area .card .year').text(painting.year)
+    $('.placard-area .card .details').text(painting.details)
+
+  replace_dom_image_url: (painting) ->
+    $('.art-container .item img').attr('src', "images/#{painting.filename}")
 
 $ ->
-  window.art = artjson
-  onemin = 60000
-
-  show_random_piece()
-  window.setInterval(show_random_piece, onemin/60)
+  paintings = new PaintingCollection paintings_json
+  window.setInterval ->
+    paintings.render_random()
+  ,mins_in_ms(.01)

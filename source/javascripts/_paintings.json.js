@@ -1,4 +1,4 @@
-var artjson = [
+var paintings_json = [
   {
     filename: 'albers-homage-square.jpg',
     title: 'Homage to the Square',

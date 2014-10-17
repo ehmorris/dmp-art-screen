@@ -14,7 +14,9 @@ body {
 .item, .placard-area {
   @include align-items(center);
   @include display(flex);
+  box-sizing: border-box;
   height: 100%;
+  padding: 1.5em;
 }
 
 .item {
@@ -23,8 +25,8 @@ body {
   img {
     display: block;
     margin: auto;
-    max-height: 92%;
-    max-width: 92%;
+    max-height: 100%;
+    max-width: 100%;
   }
 }
 
@@ -36,5 +38,6 @@ body {
     color: #fff;
     display: block;
     margin: auto;
+    width: 100%
   }
 }
