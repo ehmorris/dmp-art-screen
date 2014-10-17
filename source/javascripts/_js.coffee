@@ -36,10 +36,10 @@ $ ->
 
   render_paintings_loop = window.setInterval ->
     paintings.render_random()
-  ,mins_in_ms(.25)
+  ,mins_in_ms(5)
 
   pan_paintings_loop = window.setTimeout ->
     window.setInterval ->
       paintings.pan_current()
-    ,mins_in_ms(.25)
-  ,mins_in_ms(.125)
+    ,mins_in_ms(5)
+  ,mins_in_ms(2.5)
