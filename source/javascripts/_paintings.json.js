@@ -19,7 +19,7 @@ var paintings_json = [
     details: 'Oil on canvas'
   }, {
     filename: 'turner-storm-steam-boat.jpg',
-    title: 'Storm Seam Boat off a Harbour\'s Mouth Making Signals in Shallow Water, and Going by the Lead',
+    title: 'Snow Storm — Steam-Boat off a Harbour’s Mouth',
     artist: 'William Turner',
     year: '1842',
     details: ''

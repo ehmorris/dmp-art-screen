@@ -5,13 +5,18 @@ mins_in_ms = (mins) ->
   mins * 60000
 
 class PaintingCollection
-  constructor: (@paintings) ->
+  constructor: (@paintings, @current_painting) ->
     this.render_random()
 
   render_random: ->
     painting = @paintings.random()
-    this.replace_dom_image_url(painting)
-    this.replace_dom_image_info(painting)
+
+    if painting is @current_painting
+      this.render_random()
+    else
+      this.replace_dom_image_url(painting)
+      this.replace_dom_image_info(painting)
+      @current_painting = painting
 
   replace_dom_image_info: (painting) ->
     $('.placard-area .card .title').text(painting.title)
