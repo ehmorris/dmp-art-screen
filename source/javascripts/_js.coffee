@@ -19,16 +19,16 @@ class PaintingCollection
       @current_painting = painting
 
   replace_dom_image_info: (painting) ->
-    $('.placard-area .card .title').text(painting.title)
-    $('.placard-area .card .artist').text(painting.artist)
-    $('.placard-area .card .year').text(painting.year)
-    $('.placard-area .card .details').text(painting.details)
+    $('.card .title').text(painting.title)
+    $('.card .artist').text(painting.artist)
+    $('.card .year').text(painting.year)
+    $('.card .details').text(painting.details)
 
   replace_dom_image_url: (painting) ->
-    $('.art-container .item img').attr('src', "images/#{painting.filename}")
+    $('.painting img').attr('src', "images/#{painting.filename}")
 
 $ ->
   paintings = new PaintingCollection paintings_json
   window.setInterval ->
     paintings.render_random()
-  ,mins_in_ms(10)
+  ,mins_in_ms(.01)

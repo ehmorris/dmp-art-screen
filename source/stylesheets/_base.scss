@@ -1,24 +1,25 @@
 body {
+  @include user-select(none);
   font: 400 1em/1.4 $primary-font;
   margin: 0;
   overflow: hidden;
   text-rendering: optimizeLegibility;
 }
 
-.art-container {
-  background: #151515;
+.painting-container {
+  background: $background-color;
   @include display(flex);
   @include position(absolute, 0px 0px 0px 0px);
 }
 
-.item, .placard-area {
+.painting, .placard-area {
   @include display(flex);
   box-sizing: border-box;
   height: 100%;
   padding: 1.5em;
 }
 
-.item {
+.painting {
   @include flex(4);
   @include align-items(center);
 
@@ -36,7 +37,7 @@ body {
   @include align-items(flex-end);
   
   .card {
-    color: #fff;
+    color: $main-font-color;
     display: block;
     width: 100%;
 
@@ -56,7 +57,7 @@ body {
     }
 
     .year, .details {
-      color: #ccc;
+      color: $sub-font-color;
       margin: 1rem 0 0;
     }
 
