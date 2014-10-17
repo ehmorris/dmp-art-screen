@@ -12,7 +12,6 @@ body {
 }
 
 .item, .placard-area {
-  @include align-items(center);
   @include display(flex);
   box-sizing: border-box;
   height: 100%;
@@ -21,10 +20,12 @@ body {
 
 .item {
   @include flex(4);
+  @include align-items(center);
 
   img {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-height: 100%;
     max-width: 100%;
   }
@@ -32,11 +33,11 @@ body {
 
 .placard-area {
   @include flex(1);
+  @include align-items(flex-end);
   
   .card {
     color: #fff;
     display: block;
-    margin: auto;
     width: 100%;
 
     .title, .artist {

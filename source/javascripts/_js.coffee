@@ -31,4 +31,4 @@ $ ->
   paintings = new PaintingCollection paintings_json
   window.setInterval ->
     paintings.render_random()
-  ,mins_in_ms(.01)
+  ,mins_in_ms(10)
