@@ -1,0 +1,13 @@
+@include keyframes(pan-painting) {
+  0%, 90%, 100% {
+    @include transform(scale(1) translateX(0) translateY(0))
+  }
+
+  10% {
+    @include transform(scale(3) translateX(35%) translateY(25%))
+  }
+
+  80% {
+    @include transform(scale(3) translateX(-25%) translateY(-25%))
+  }
+}

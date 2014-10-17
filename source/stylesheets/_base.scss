@@ -10,6 +10,24 @@ body {
   background: $background-color;
   @include display(flex);
   @include position(absolute, 0px 0px 0px 0px);
+
+  &.pan {
+    .painting {
+      position: relative;
+
+      img {
+        @include animation(pan-painting $painting-duration/2 linear);
+      }
+    }
+
+    .placard-area .card {
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+      .year, .details {
+        color: $main-font-color;
+      }
+    }
+  }
 }
 
 .painting, .placard-area {
@@ -39,7 +57,9 @@ body {
   .card {
     color: $main-font-color;
     display: block;
+    position: relative;
     width: 100%;
+    z-index: 1;
 
     .title, .artist {
       font-size: 1rem;

@@ -16,6 +16,7 @@ class PaintingCollection
     else
       this.replace_dom_image_url(painting)
       this.replace_dom_image_info(painting)
+      $('.painting-container').removeClass 'pan'
       @current_painting = painting
 
   replace_dom_image_info: (painting) ->
@@ -27,8 +28,18 @@ class PaintingCollection
   replace_dom_image_url: (painting) ->
     $('.painting img').attr('src', "images/#{painting.filename}")
 
+  pan_current: ->
+    $('.painting-container').addClass 'pan'
+
 $ ->
   paintings = new PaintingCollection paintings_json
-  window.setInterval ->
+
+  render_paintings_loop = window.setInterval ->
     paintings.render_random()
-  ,mins_in_ms(.01)
+  ,mins_in_ms(10)
+
+  pan_paintings_loop = window.setTimeout ->
+    window.setInterval ->
+      paintings.pan_current()
+    ,mins_in_ms(10)
+  ,mins_in_ms(5)
